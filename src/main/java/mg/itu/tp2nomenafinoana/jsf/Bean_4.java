@@ -4,15 +4,18 @@
  */
 package mg.itu.tp2nomenafinoana.jsf;
 
-import java.util.ArrayList;
-import java.util.List;
 import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import java.util.ArrayList;
+import java.util.List;
 
-@Named(value = "bean")
+/**
+ *
+ * @author Nomena
+ */
+@Named(value = "bean_4")
 @RequestScoped
-public class Bean {
-
+public class Bean_4 {
     private int nombre;
 
     public int getNombre() {
@@ -33,7 +36,7 @@ public class Bean {
     }
 
     public String afficher() {
-        return "affichage_3?nb=" + nombre + "&amp;faces-redirect=true";
+        return "affichage_4?nb=" + nombre + "&amp;faces-redirect=true";
     }
 
 }
